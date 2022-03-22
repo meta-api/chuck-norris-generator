@@ -4,7 +4,7 @@
 
 2. Deploy your Spell
 
-3. Create a new `.env` file at the root folder with a variable REACT_APP_API_KEY and your API Key (see .env.example for an example)
+3. Create a new `.env` file at the root folder with a variable `REACT_APP_API_KEY` and your API Key (see `.env.example` for an example)
 
 4. Edit your Spell ID inside `App.js`
 
