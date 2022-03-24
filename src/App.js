@@ -44,7 +44,7 @@ function App() {
         {lastFact && <div style={{ padding: "1em" }}>
           <i>Category: {lastFact.category}</i>
           <p>Fact: {lastFact.text}</p>
-          <p>Yodish: {lastFact.yodish}</p>
+          {lastFact.yodish && <p>Yodish: {lastFact.yodish}</p>}
         </div>}
         {error && <div style={{ color: "red" }}>{error}</div>}
       </header>
